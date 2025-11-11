@@ -8,6 +8,7 @@ function App() {
       <>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<div>Not found</div>} />
         </Routes>
       </>
     </Suspense>
