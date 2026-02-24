@@ -9,44 +9,73 @@
         "font-extrabold",
         "tracking-tight"
       ],
-      "previewClasses": ["text-3xl", "font-extrabold", "tracking-tight"]
+      "previewClasses": [
+        "text-3xl",
+        "font-extrabold",
+        "tracking-tight"
+      ]
     },
     {
       "name": "Header 2",
       "preview": "Aa",
       "tag": "h2",
-      "classes": ["text-3xl", "font-semibold", "tracking-tight"]
+      "classes": [
+        "text-3xl",
+        "font-semibold",
+        "tracking-tight"
+      ]
     },
     {
       "name": "Header 3",
       "preview": "Aa",
       "tag": "h3",
-      "classes": ["text-2xl", "font-semibold", "tracking-tight"]
+      "classes": [
+        "text-2xl",
+        "font-semibold",
+        "tracking-tight"
+      ]
     },
     {
       "name": "Header 4",
       "preview": "Aa",
       "tag": "h4",
-      "classes": ["text-xl", "font-semibold", "tracking-tight"]
+      "classes": [
+        "text-xl",
+        "font-semibold",
+        "tracking-tight"
+      ]
     },
     {
       "name": "Paragraph",
       "preview": "¶",
       "tag": "p",
-      "classes": ["leading-7"]
+      "classes": [
+        "leading-7"
+      ]
     },
     {
       "name": "Lead Text",
       "preview": "A",
       "tag": "p",
-      "classes": ["text-xl", "text-muted-foreground"]
+      "classes": [
+        "text-xl",
+        "text-muted-foreground"
+      ]
     },
     {
       "name": "Blockquote",
       "preview": "abc",
       "tag": "blockquote",
-      "classes": ["border-l-2", "pl-6", "italic"],
-      "previewClasses": ["border-l-2", "pl-2", "italic"]
+      "classes": [
+        "border-l-2",
+        "pl-6",
+        "italic"
+      ],
+      "previewClasses": [
+        "border-l-2",
+        "pl-2",
+        "italic"
+      ]
     },
     {
       "name": "Inline Code",
@@ -67,25 +96,43 @@
       "name": "Large",
       "preview": "A",
       "tag": "div",
-      "classes": ["text-lg", "font-semibold"]
+      "classes": [
+        "text-lg",
+        "font-semibold"
+      ]
     },
     {
       "name": "Small",
       "preview": "Aa",
       "tag": "small",
-      "classes": ["text-sm", "font-medium", "leading-none"]
+      "classes": [
+        "text-sm",
+        "font-medium",
+        "leading-none"
+      ]
     },
     {
       "name": "Muted",
       "preview": "Aa",
       "tag": "p",
-      "classes": ["text-sm", "text-muted-foreground"]
+      "classes": [
+        "text-sm",
+        "text-muted-foreground"
+      ]
     },
     {
       "name": "Extra Small",
       "preview": "Aa",
       "tag": "p",
-      "classes": ["text-xs", "font-light"]
+      "classes": [
+        "text-xs",
+        "font-light"
+      ]
     }
-  ]
+  ],
+  "framework": "VITE",
+  "packageManager": "npm",
+  "installCommand": "npm install",
+  "runCommand": "npm run dev -- --port 5173",
+  "devServerPort": 5173
 }
